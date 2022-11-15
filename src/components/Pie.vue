@@ -107,7 +107,7 @@ export default {
     },
     compare (arr) {
       // console.log(arr)
-      const showArray = []
+      // const showArray = []
       arr.forEach(item => {
         // eslint-disable-next-line array-callback-return
         const isFind = showArray.find(newItem => {
