@@ -107,7 +107,7 @@ export default {
     },
     compare (arr) {
       // console.log(arr)
-      // const showArray = []
+      const showArray = []
       arr.forEach(item => {
         // eslint-disable-next-line array-callback-return
         const isFind = showArray.find(newItem => {
@@ -117,7 +117,7 @@ export default {
           }
         })
         if (isFind) {
-          console.log('找到了！！！')
+          // console.log('找到了！！！')
         } else {
           const newObj = {
             name: item.type,
