@@ -106,7 +106,7 @@ export default {
       })
     },
     compare (arr) {
-      // console.log(arr)
+      console.log(arr)
       const showArray = []
       arr.forEach(item => {
         // eslint-disable-next-line array-callback-return
